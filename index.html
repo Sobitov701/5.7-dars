@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Todo List</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
   </head>
-  <body>
+  <body style="background-color: #0d0714">
     <div class="container">
-      <h2>New Todo:</h2>
-      <form id="todo-form">
-        <input type="text" id="todo-input" placeholder="Enter a task..." />
-        <button id="add">Add</button>
+      <form id="from">
+        <input id="text" type="text" placeholder="Add a new task" />
+        <button id="btn" class="button">+</button>
       </form>
-      <ul id="todo-list"></ul>
+      <div id="container"></div>
     </div>
-    <script src="./app.js"></script>
+
+    <script src="./index.js"></script>
   </body>
 </html>
